@@ -1,0 +1,62 @@
+
+h1
+{
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40px;
+    color:white;
+    background-color:  rgb(245, 111, 245);
+    border-radius: 3px;
+}
+.prtable
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.prcard
+{
+    display: flex;
+    height: 300px;
+    width: 250px;
+    text-align: center;
+    border: 2.5px solid rgba(137, 43, 226, 0.295);
+    border-radius: 10px;
+    background: white;
+    padding: 2px;
+    flex-direction: column;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    
+}
+.primg
+{
+    height: 150px;
+    margin: 2px;
+    margin-top: 5px;
+}
+.prname
+{
+    margin: 2px;
+    font-size: 20px;
+}
+.price
+{
+    margin: 1px;
+    font-size: 15px;
+}
+.prprice
+{
+    margin: 1px;
+    font-weight: normal;
+}
+.prdescr
+{
+    margin: auto;
+    margin-bottom: 5px;
+    color: rgba(132, 74, 187, 0.63);
+    font-size: 15px;
+}
